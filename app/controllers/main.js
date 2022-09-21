@@ -20,7 +20,7 @@ function display(products) {
       <tr>
         <td>${index + 1}</td>
         <td>${value.name}</td>
-        <td>${value.price}</td>
+        <td>${value.price}$</td>
         <td>
           <img src="${value.img}" width="60px" height="auto">
         </td>
